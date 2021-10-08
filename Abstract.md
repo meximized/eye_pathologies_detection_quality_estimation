@@ -16,7 +16,7 @@ but before that it is crucial to understand how these aberrations affect the per
 
 To execute this task we add some distortions to the source clear image via Fourier transform. 
 To add aberrations to the image one need to perform a convolution on image and distortions. 
-Certain conditions allow us to simplify the operation of convolution and multiply Fourier spectra of image and aberration (the Fourier spectrum of different Zernike polynomials)
-and then apply the reverse transform on the result of the multiplication. We can change the extent of distortions applied by tuning the abberations' amplitude.
+Certain conditions allow us to simplify the operation of convolution and reduce it to the multiplication of Fourier spectra of image and aberration (the Fourier spectrum of different [Zernike polynomials](https://en.wikipedia.org/wiki/Zernike_polynomials))
+and the application of the reverse transform on the result of the multiplication. We can change the extent of distortions applied by tuning the abberations' amplitude. 
 
-The neural network then process the source image with the array of distorted images. And here comes further processing, the subject of my [work](./README.md).
+The neural network then process the source image and the array of distorted images by marking out pathological areas of tissue on them. Then comes the estimation of pathology detection quality, the subject of my [work](./README.md).
