@@ -2,7 +2,7 @@
 
 You can look through a brief background of this work [here](./Abstract.md).
 
-If there is a problem with displaying the .ipynb file here, on github, please go [here](https://github.com/meximized/eye_pathologies_detection_quality_estimation/blob/main/code/aberration_characteristics__final.ipynb)
+If there is a problem with displaying the .ipynb file here, on github, please go [here](https://nbviewer.org/github/meximized/eye_pathologies_detection_quality_estimation/blob/main/code/aberration_characteristics__final.ipynb)
 
 ## About
 
